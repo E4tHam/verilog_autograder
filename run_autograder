@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Cd to correct directory
+cd /autograder
+
+# Create diff
+make diffs/and_gate.diff
+make diffs/or_gate.diff
+
+# run
+cd /autograder/generate-results
+python3 generate-results.py > /autograder/results/results.json

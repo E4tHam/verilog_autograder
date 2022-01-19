@@ -1,0 +1,10 @@
+
+# .gitignore
+
+submission/
+
+fusesoc.conf
+build/
+diffs/
+
+autograder.zip
